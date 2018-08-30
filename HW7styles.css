@@ -66,8 +66,12 @@ aside {
     margin: 10px;
 }
 
+h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin: 10px;
+}
+
 div {
-    /*background-clip: height="200px" width="200px";*/
     text-align: left;
     float: left;
     margin: auto;
@@ -75,4 +79,15 @@ div {
     padding: 10px;
     border: 10px solid white;
 }
+
+background {
+    background-color: red;
+    position: absolute;
+    align-content: center;
+    right: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+}
+
 
